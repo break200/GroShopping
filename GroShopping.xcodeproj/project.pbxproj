@@ -14,6 +14,7 @@
 		FD5FFAAB2BD79C0B001EB2EB /* GroShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FFAAA2BD79C0B001EB2EB /* GroShoppingTests.swift */; };
 		FD5FFAB52BD79C0B001EB2EB /* GroShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FFAB42BD79C0B001EB2EB /* GroShoppingUITests.swift */; };
 		FD5FFAB72BD79C0B001EB2EB /* GroShoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FFAB62BD79C0B001EB2EB /* GroShoppingUITestsLaunchTests.swift */; };
+		FD5FFAC42BD79C38001EB2EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC32BD79C38001EB2EB /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FD5FFAB02BD79C0B001EB2EB /* GroShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5FFAB42BD79C0B001EB2EB /* GroShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroShoppingUITests.swift; sourceTree = "<group>"; };
 		FD5FFAB62BD79C0B001EB2EB /* GroShoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroShoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD5FFAC32BD79C38001EB2EB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		FD5FFA8D2BD79C09001EB2EB = {
 			isa = PBXGroup;
 			children = (
+				FD5FFAC32BD79C38001EB2EB /* .gitignore */,
 				FD5FFA982BD79C09001EB2EB /* GroShopping */,
 				FD5FFAA92BD79C0B001EB2EB /* GroShoppingTests */,
 				FD5FFAB32BD79C0B001EB2EB /* GroShoppingUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD5FFAA12BD79C0A001EB2EB /* Preview Assets.xcassets in Resources */,
+				FD5FFAC42BD79C38001EB2EB /* .gitignore in Resources */,
 				FD5FFA9E2BD79C0A001EB2EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
