@@ -18,6 +18,7 @@
 		FD5FFAC92BD7A08F001EB2EB /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC62BD7A08F001EB2EB /* Gilroy-Bold.ttf */; };
 		FD5FFACA2BD7A08F001EB2EB /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC72BD7A08F001EB2EB /* Gilroy-Regular.ttf */; };
 		FD5FFACB2BD7A08F001EB2EB /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC82BD7A08F001EB2EB /* Gilroy-SemiBold.ttf */; };
+		FD5FFACD2BD7A0C7001EB2EB /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFACC2BD7A0C7001EB2EB /* Gilroy-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		FD5FFAC62BD7A08F001EB2EB /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
 		FD5FFAC72BD7A08F001EB2EB /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		FD5FFAC82BD7A08F001EB2EB /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		FD5FFACC2BD7A0C7001EB2EB /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				FD5FFAC62BD7A08F001EB2EB /* Gilroy-Bold.ttf */,
+				FD5FFACC2BD7A0C7001EB2EB /* Gilroy-Medium.ttf */,
 				FD5FFAC72BD7A08F001EB2EB /* Gilroy-Regular.ttf */,
 				FD5FFAC82BD7A08F001EB2EB /* Gilroy-SemiBold.ttf */,
 			);
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD5FFACA2BD7A08F001EB2EB /* Gilroy-Regular.ttf in Resources */,
+				FD5FFACD2BD7A0C7001EB2EB /* Gilroy-Medium.ttf in Resources */,
 				FD5FFACB2BD7A08F001EB2EB /* Gilroy-SemiBold.ttf in Resources */,
 				FD5FFAA12BD79C0A001EB2EB /* Preview Assets.xcassets in Resources */,
 				FD5FFAC42BD79C38001EB2EB /* .gitignore in Resources */,
