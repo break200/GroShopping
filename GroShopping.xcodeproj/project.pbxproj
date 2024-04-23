@@ -15,6 +15,9 @@
 		FD5FFAB52BD79C0B001EB2EB /* GroShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FFAB42BD79C0B001EB2EB /* GroShoppingUITests.swift */; };
 		FD5FFAB72BD79C0B001EB2EB /* GroShoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FFAB62BD79C0B001EB2EB /* GroShoppingUITestsLaunchTests.swift */; };
 		FD5FFAC42BD79C38001EB2EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC32BD79C38001EB2EB /* .gitignore */; };
+		FD5FFAC92BD7A08F001EB2EB /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC62BD7A08F001EB2EB /* Gilroy-Bold.ttf */; };
+		FD5FFACA2BD7A08F001EB2EB /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC72BD7A08F001EB2EB /* Gilroy-Regular.ttf */; };
+		FD5FFACB2BD7A08F001EB2EB /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC82BD7A08F001EB2EB /* Gilroy-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		FD5FFAB42BD79C0B001EB2EB /* GroShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroShoppingUITests.swift; sourceTree = "<group>"; };
 		FD5FFAB62BD79C0B001EB2EB /* GroShoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroShoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FD5FFAC32BD79C38001EB2EB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FD5FFAC62BD7A08F001EB2EB /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		FD5FFAC72BD7A08F001EB2EB /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		FD5FFAC82BD7A08F001EB2EB /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 			children = (
 				FD5FFA992BD79C09001EB2EB /* GroShoppingApp.swift */,
 				FD5FFA9B2BD79C09001EB2EB /* ContentView.swift */,
+				FD5FFAC52BD7A074001EB2EB /* Font */,
 				FD5FFA9D2BD79C0A001EB2EB /* Assets.xcassets */,
 				FD5FFA9F2BD79C0A001EB2EB /* Preview Content */,
 			);
@@ -128,6 +135,16 @@
 				FD5FFAB62BD79C0B001EB2EB /* GroShoppingUITestsLaunchTests.swift */,
 			);
 			path = GroShoppingUITests;
+			sourceTree = "<group>";
+		};
+		FD5FFAC52BD7A074001EB2EB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FFAC62BD7A08F001EB2EB /* Gilroy-Bold.ttf */,
+				FD5FFAC72BD7A08F001EB2EB /* Gilroy-Regular.ttf */,
+				FD5FFAC82BD7A08F001EB2EB /* Gilroy-SemiBold.ttf */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5FFACA2BD7A08F001EB2EB /* Gilroy-Regular.ttf in Resources */,
+				FD5FFACB2BD7A08F001EB2EB /* Gilroy-SemiBold.ttf in Resources */,
 				FD5FFAA12BD79C0A001EB2EB /* Preview Assets.xcassets in Resources */,
 				FD5FFAC42BD79C38001EB2EB /* .gitignore in Resources */,
 				FD5FFA9E2BD79C0A001EB2EB /* Assets.xcassets in Resources */,
+				FD5FFAC92BD7A08F001EB2EB /* Gilroy-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
