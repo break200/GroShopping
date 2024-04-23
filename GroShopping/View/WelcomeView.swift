@@ -12,7 +12,8 @@ struct WelcomeView: View {
         ZStack{
             Image(DefineImage.BGIMAGE)
                 .resizable()
-                .scaledToFill()       
+                .scaledToFill()
+            
         }.ignoresSafeArea()
     }
     
