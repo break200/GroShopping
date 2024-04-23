@@ -215,6 +215,10 @@ extension View {
         self.padding([.trailing,.top], pi)
     }
     
+    func paddingLeadTrai(pi:CGFloat) -> some View {
+        self.padding([.leading,.trailing,], pi)
+    }
+    
     func paddingHorizontal(pi:CGFloat) -> some View {
         self.padding(.horizontal , pi)
     }
@@ -271,5 +275,9 @@ extension View {
 
     func textTrailingLine(number: Int) -> some View {
          self.lineLimit(number).multilineTextAlignment(.trailing)
+    }
+    
+    func naviOption(title:String ,backBtnHidden:Bool , naviBarHidden:Bool  ) -> some View {
+        self.navigationTitle(title).navigationBarBackButtonHidden(backBtnHidden).navigationBarHidden(naviBarHidden)
     }
 }

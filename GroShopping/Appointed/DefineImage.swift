@@ -8,5 +8,14 @@
 import Foundation
 
 struct DefineImage {
-    static let BGIMAGE = "welcom_bg"
+    //welComeView
+    static let WEL_BGIMAGE    = "welcom_bg"
+    static let WEL_APPLOGO    = "app_logo"
+    
+    //singInView
+    static let SIGN_BOTTOMBG  = "bottom_bg"
+    static let SIGN_SIGMTOP   = "sign_in_top"
+    static let SIGN_GOOGLE    = "google_logo"
+    static let SIGN_FACEBOOK  = "fb_logo"
+    
 }
