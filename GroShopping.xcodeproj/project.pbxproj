@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD33AC6E2BD7A9FA0083229E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD33AC6D2BD7A9FA0083229E /* WelcomeView.swift */; };
 		FD5FFA9A2BD79C09001EB2EB /* GroShoppingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FFA992BD79C09001EB2EB /* GroShoppingApp.swift */; };
-		FD5FFA9C2BD79C09001EB2EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FFA9B2BD79C09001EB2EB /* ContentView.swift */; };
 		FD5FFA9E2BD79C0A001EB2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFA9D2BD79C0A001EB2EB /* Assets.xcassets */; };
 		FD5FFAA12BD79C0A001EB2EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAA02BD79C0A001EB2EB /* Preview Assets.xcassets */; };
 		FD5FFAAB2BD79C0B001EB2EB /* GroShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FFAAA2BD79C0B001EB2EB /* GroShoppingTests.swift */; };
@@ -19,6 +19,7 @@
 		FD5FFACA2BD7A08F001EB2EB /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC72BD7A08F001EB2EB /* Gilroy-Regular.ttf */; };
 		FD5FFACB2BD7A08F001EB2EB /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAC82BD7A08F001EB2EB /* Gilroy-SemiBold.ttf */; };
 		FD5FFACD2BD7A0C7001EB2EB /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFACC2BD7A0C7001EB2EB /* Gilroy-Medium.ttf */; };
+		FD5FFAD72BD7A717001EB2EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5FFAD62BD7A717001EB2EB /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD33AC6D2BD7A9FA0083229E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		FD5FFA962BD79C09001EB2EB /* GroShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5FFA992BD79C09001EB2EB /* GroShoppingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroShoppingApp.swift; sourceTree = "<group>"; };
-		FD5FFA9B2BD79C09001EB2EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD5FFA9D2BD79C0A001EB2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD5FFAA02BD79C0A001EB2EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD5FFAA62BD79C0B001EB2EB /* GroShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +56,7 @@
 		FD5FFAC82BD7A08F001EB2EB /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 		FD5FFACC2BD7A0C7001EB2EB /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
 		FD5FFACE2BD7A19C001EB2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD5FFAD62BD7A717001EB2EB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +110,11 @@
 			children = (
 				FD5FFACE2BD7A19C001EB2EB /* Info.plist */,
 				FD5FFA992BD79C09001EB2EB /* GroShoppingApp.swift */,
-				FD5FFA9B2BD79C09001EB2EB /* ContentView.swift */,
-				FD5FFAD02BD7A25C001EB2EB /* Model */,
+				FD5FFAD62BD7A717001EB2EB /* Launch Screen.storyboard */,
+				FD5FFAD22BD7A41C001EB2EB /* View */,
 				FD5FFACF2BD7A24D001EB2EB /* ViewModel */,
+				FD5FFAD02BD7A25C001EB2EB /* Model */,
+				FD5FFAD12BD7A3E0001EB2EB /* Utility */,
 				FD5FFAC52BD7A074001EB2EB /* Font */,
 				FD5FFA9D2BD79C0A001EB2EB /* Assets.xcassets */,
 				FD5FFA9F2BD79C0A001EB2EB /* Preview Content */,
@@ -166,6 +170,29 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FD5FFAD12BD7A3E0001EB2EB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		FD5FFAD22BD7A41C001EB2EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FFAD32BD7A457001EB2EB /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD5FFAD32BD7A457001EB2EB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FD33AC6D2BD7A9FA0083229E /* WelcomeView.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +301,7 @@
 			files = (
 				FD5FFACA2BD7A08F001EB2EB /* Gilroy-Regular.ttf in Resources */,
 				FD5FFACD2BD7A0C7001EB2EB /* Gilroy-Medium.ttf in Resources */,
+				FD5FFAD72BD7A717001EB2EB /* Launch Screen.storyboard in Resources */,
 				FD5FFACB2BD7A08F001EB2EB /* Gilroy-SemiBold.ttf in Resources */,
 				FD5FFAA12BD79C0A001EB2EB /* Preview Assets.xcassets in Resources */,
 				FD5FFAC42BD79C38001EB2EB /* .gitignore in Resources */,
@@ -303,7 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5FFA9C2BD79C09001EB2EB /* ContentView.swift in Sources */,
+				FD33AC6E2BD7A9FA0083229E /* WelcomeView.swift in Sources */,
 				FD5FFA9A2BD79C09001EB2EB /* GroShoppingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,9 +502,10 @@
 				INFOPLIST_FILE = GroShopping/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,9 +537,10 @@
 				INFOPLIST_FILE = GroShopping/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
