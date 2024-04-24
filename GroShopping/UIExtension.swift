@@ -254,15 +254,15 @@ extension View {
 // Text aliment
 extension View {
     func textLeading() -> some View {
-        self.multilineTextAlignment(.leading)
+        self.frame(minWidth: 0, maxWidth: .infinity , alignment: .leading)
     }
     
     func textCenter() -> some View {
-        self.multilineTextAlignment(.center)
+        self.frame(minWidth: 0, maxWidth: .infinity , alignment: .center)
     }
     
     func textTrailing() -> some View {
-        self.multilineTextAlignment(.trailing)
+        self.frame(minWidth: 0, maxWidth: .infinity , alignment: .trailing)
     }
     
     func textLeadingLine(number: Int) -> some View {
