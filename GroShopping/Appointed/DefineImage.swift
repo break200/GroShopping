@@ -18,4 +18,7 @@ struct DefineImage {
     static let SIGN_GOOGLE    = "google_logo"
     static let SIGN_FACEBOOK  = "fb_logo"
     
+    //loginView
+    static let LOG_BACK       =  "back"
+    static let LOG_LOGO       =  "color_logo"
 }
